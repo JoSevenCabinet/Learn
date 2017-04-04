@@ -1,0 +1,46 @@
+Занятие Первое:
+
+Цикл - итеративный алгоритм
+
+public class TestForOO{
+public static void main(String[]args){
+for(int k = 0; k<10;k++){
+System.out.print(k+" ");
+}
+}
+}
+
+В Java Любой тип данных конкатенируется со строкой
+В Java все типы данных делятся на ссылочные и примитивы
+Любой объект Java превращается в строку строки конкатенируется
+
+Идеома: 
+int temp=mas[0];
+mas[0]=mas[1];
+mas[1]=temp;
+
+Идеома:
+a=a+b;
+b=a-b;
+a=a-b;
+
+
+Сортировка пузырьком
+
+class x{
+public static main(String[] args){
+int []arr={0,10,20,3,4,5,600};
+System.out.print(Arrays.toString(arr)+"->");
+
+for(int barrer=arr.length-1; barrer>=0;barrer--)
+for(int index=0; index<barrier;index++){
+if(arr[index]>arr{index+1]){
+int tmp=arr[index];
+arr[index]=arr[index+1];
+arr[index+1]=tmp;
+}
+}
+}
+
+
+
